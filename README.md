@@ -50,4 +50,4 @@ The easiest way to use this script is via a direct execution command on your new
 Run the following command directly in your terminal. This downloads the script from the official repository and pipes it directly into Bash for execution:
 
 ```bash
-wget -O - [https://github.com/shubhamgote27/Tool/raw/refs/heads/main/run.sh](https://github.com/shubhamgote27/Tool/raw/refs/heads/main/run.sh) | sudo bash
+wget -O - https://github.com/shubhamgote27/Tool/raw/refs/heads/main/run.sh | sudo bash
