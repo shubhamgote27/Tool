@@ -36,21 +36,18 @@ The script offers individual options for these tools, categorized by function:
 
 ---
 
-## ⚙️ How to Use
+## ⚙️ How to Use (Quick Start)
 
-The best way to use this script is via a direct execution command on your new server or WSL instance.
+The easiest way to use this script is via a direct execution command on your new server or WSL instance.
 
 ### 1. Prerequisites
 
 * A fresh **Ubuntu/Debian** based server or an initialized **WSL2** instance.
-* The user must have **`sudo`** privileges (The script runs as root).
+* The user must have **`sudo`** privileges.
 
-### 2. Execution (The Short Command)
+### 2. Execution (The Single Command)
 
-Use `wget` to download and execute the script directly in one line. This avoids file permission issues.
+Run the following command directly in your terminal. This downloads the script from the official repository and pipes it directly into Bash for execution:
 
 ```bash
-# Example assuming your script is named sg_devops_manager.sh in the main branch
-# NOTE: Replace the URL with your actual GitHub Raw Link!
-
-wget -O - YOUR_RAW_GITHUB_LINK | sudo bash
+wget -O - [https://github.com/shubhamgote27/Tool/raw/refs/heads/main/run.sh](https://github.com/shubhamgote27/Tool/raw/refs/heads/main/run.sh) | sudo bash
